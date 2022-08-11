@@ -1,0 +1,51 @@
+.banner-wrapper{
+position: relative;
+height: 85vh;
+}
+.banner-img{
+height: 100%;
+width: 100%;
+transform: scaleX(-1);
+}
+.banner-body{
+    position:absolute ;
+    top: 30%;
+    left: 8%;
+
+}
+.banner-body p:nth-child(1){
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 1px;
+}
+.banner-body p:nth-child(2){
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 1px;
+}
+.banner-body p:nth-child(3),.banner-body p:nth-child(4){
+    font-size: 16px;
+    text-transform:capitalize;
+    line-height: 5px;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 600px){
+    .banner-wrapper{
+        background-image: url(../../assets/img/black-and-white-building-architecture-64q2n3yrvy0zd3cj.webp);
+        height: 40vh;
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        transition: ease-in 0.0s;
+        } 
+        .banner-body p:nth-child(1){
+            font-size: 24px;
+            text-transform: uppercase;
+            line-height: 1px;
+        }
+        .banner-body p:nth-child(2){
+            font-size: 15px;
+            text-transform: uppercase;
+            line-height: 1px;
+        } 
+}

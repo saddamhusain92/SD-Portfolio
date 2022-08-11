@@ -1,0 +1,16 @@
+.btn{
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    background-color: black;
+    cursor: pointer; 
+    border: none;
+    height: 30px;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 11px 3px rgba(207,207,207,1);
+    -moz-box-shadow: 1px 1px 11px 3px rgba(207,207,207,1);
+    box-shadow: 1px 1px 11px 3px rgba(207,207,207,1);
+}
