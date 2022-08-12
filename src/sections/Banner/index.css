@@ -6,6 +6,7 @@ height: 85vh;
 height: 100%;
 width: 100%;
 transform: scaleX(-1);
+filter: blur(2px);
 }
 .banner-body{
     position:absolute ;
@@ -17,6 +18,7 @@ transform: scaleX(-1);
     font-size: 70px;
     text-transform: uppercase;
     line-height: 1px;
+    color: red;
 }
 .banner-body p:nth-child(2){
     font-size: 40px;

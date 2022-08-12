@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './index.css'
 import { MdOutlineMenuOpen,MdClose } from 'react-icons/md';
+import logo from '../../assets/img/logo.png'
 import { NavLink } from "react-router-dom";
 import Button from '../Button';
 const Navigation = () => {
@@ -60,7 +61,7 @@ const[show,setShow] = useState({
  <div className='Navigation'>
        <div className='main-nav-bar'>
     <div className='Logo'>
-    SD Husain
+    <img src={logo} alt ="sdhusain" height={40} />
     </div>
     <div className='nav-section'>
     {NavData.map((ele)=>(

@@ -1,0 +1,52 @@
+.profile-img{
+position: relative;
+height: 250px;
+width: 250px;
+overflow: hidden;
+text-align: center;
+width: 100%;
+
+
+}
+.profile-img::after{
+content: "";
+position: absolute;
+top:-50px ;
+right: -50px;
+width: 100px;
+height: 100px;
+transform: rotate(45deg);
+background-color: red;
+}
+.about-header{
+font-size: 30px;
+position: absolute;
+top: -30px;
+left: 10px;
+}
+.about-me{
+    position: relative;
+    width: 100%;
+    
+}
+.about{
+    padding: 12px;
+    
+}
+.about-wrapper{
+    display: flex;
+}
+.abour-header{
+font-size: 24px;
+letter-spacing: 2px;
+}
+
+@media screen and (max-width: 600px){
+    .about-wrapper{
+        display: block;
+    }
+    .profile-img::after{
+        display: none;
+        }
+
+}
